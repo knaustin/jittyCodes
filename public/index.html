@@ -11,47 +11,73 @@
         crossorigin="anonymous">
     <!-- Personal Style Sheet -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Animate.CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
     <!-- Iconic -->
     <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
 
     <title>jittyCodes</title>
 </head>
+
 <body>
-        <div id="mySidenav" class="sidenav">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><ion-icon name="close-circle-outline" class="exitNav"></ion-icon></a>
-                <a href="/about"><ion-icon name="information-circle-outline" class="navIconItem"></ion-icon>About</a>
-                <a href="/portfolio"><ion-icon name="folder-open" class="navIconItem"></ion-icon>Portfolio</a>
-                <a href="/contact"><ion-icon name="contact" class="navIconItem"></ion-icon>Contact</a>
-                <a href="https://github.com/knaustin"><ion-icon name="logo-github" class="navIconItem"></ion-icon>Github</a>
-                <a href="https://www.linkedin.com/in/kristen-austin-a6638a123/"><ion-icon name="logo-linkedin" class="navIconItem"></ion-icon>Linkedin</a>
-                <a href="https://twitter.com/jittyCodes"><ion-icon name="logo-twitter" class="navIconItem"></ion-icon>Twitter</a>
-        </div>
-             
-              
-              <!-- Use any element to open the sidenav -->
-              <span onclick="openNav()"><ion-icon name="reorder" class="navIcon"></ion-icon></span>
-              
-              <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
-              <div id="main">
-                <div class="container" id="mainPage">
-                    <div class="mx-auto">
-                            <div class="row">
-                                    <h1>Hello, my name is Kristen,</h1>
-                                </div>
-                                <div class="row">
-                                        <h1>and I am a Full-Stack Developer.</h1>
-                                    </div>
-                    </div>
+    <!-- NavBar -->
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+            <ion-icon name="close-circle-outline" class="exitNav"></ion-icon>
+        </a>
+        <a href="/about">
+            <ion-icon name="information-circle-outline" class="navIconItem"></ion-icon>About
+        </a>
+        <a href="/portfolio">
+            <ion-icon name="folder-open" class="navIconItem"></ion-icon>Portfolio
+        </a>
+        <a href="/contact">
+            <ion-icon name="contact" class="navIconItem"></ion-icon>Contact
+        </a>
+        <a href="https://github.com/knaustin">
+            <ion-icon name="logo-github" class="navIconItem"></ion-icon>Github
+        </a>
+        <a href="https://www.linkedin.com/in/kristen-austin-a6638a123/">
+            <ion-icon name="logo-linkedin" class="navIconItem"></ion-icon>Linkedin
+        </a>
+        <a href="https://twitter.com/jittyCodes">
+            <ion-icon name="logo-twitter" class="navIconItem"></ion-icon>Twitter
+        </a>
+    </div>
+
+
+    <!-- Use any element to open the sidenav -->
+    <span onclick="openNav()">
+        <ion-icon name="reorder" class="navIcon"></ion-icon>
+    </span>
+
+    <!-- Page Content -->
+    <div id="main">
+        <div class="container" id="mainPage">
+            <div class="mx-auto">
+                <div class="row">
+                    <h1>Hello, my name is Kristen,</h1>
                 </div>
-                <div class="container bottom">
-                        <span class="Copyright">
-                          Copyright © 2019 Kristen Austin All rights reserved.
-                        </span>
-                      </div>
-              </div>
-              </div>
-    
- 
+                <div class="row">
+                    <h1>and I am a Full-Stack Developer.</h1>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- Copyright footer -->
+        <div class="container bottom">
+            <span class="Copyright">
+                Copyright © 2019 Kristen Austin All rights reserved.
+            </span>
+        </div>
+    </div>
+
+
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
