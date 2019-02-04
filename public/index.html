@@ -1,20 +1,68 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 
 <head>
-    <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css" media="screen,projection" />
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!--Let browser know website is optimized for mobile-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+    <!-- Personal Style Sheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Iconic -->
+    <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
+
+    <title>jittyCodes</title>
 </head>
-
 <body>
-    <!--Import jQuery before materialize.js-->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="assets/js/materialize.min.js"></script>
+        <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><ion-icon name="close-circle-outline" class="exitNav"></ion-icon></a>
+                <a href="/about"><ion-icon name="information-circle-outline" class="navIconItem"></ion-icon>About</a>
+                <a href="/portfolio"><ion-icon name="folder-open" class="navIconItem"></ion-icon>Portfolio</a>
+                <a href="/contact"><ion-icon name="contact" class="navIconItem"></ion-icon>Contact</a>
+                <a href="https://github.com/knaustin"><ion-icon name="logo-github" class="navIconItem"></ion-icon>Github</a>
+                <a href="https://www.linkedin.com/in/kristen-austin-a6638a123/"><ion-icon name="logo-linkedin" class="navIconItem"></ion-icon>Linkedin</a>
+                <a href="https://twitter.com/jittyCodes"><ion-icon name="logo-twitter" class="navIconItem"></ion-icon>Twitter</a>
+        </div>
+             
+              
+              <!-- Use any element to open the sidenav -->
+              <span onclick="openNav()"><ion-icon name="reorder" class="navIcon"></ion-icon></span>
+              
+              <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+              <div id="main">
+                <div class="container" id="mainPage">
+                    <div class="mx-auto">
+                            <div class="row">
+                                    <h1>Hello, my name is Kristen,</h1>
+                                </div>
+                                <div class="row">
+                                        <h1>and I am a Full-Stack Developer.</h1>
+                                    </div>
+                    </div>
+                </div>
+                <div class="container bottom">
+                        <span class="Copyright">
+                          Copyright © 2019 Kristen Austin All rights reserved.
+                        </span>
+                      </div>
+              </div>
+              </div>
+    
+ 
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+    <script src="assets/js/index.js"></script>
+
 </body>
 
 </html>
