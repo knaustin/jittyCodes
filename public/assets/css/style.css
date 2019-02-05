@@ -124,3 +124,12 @@ body {
 #jittyIcon {
     padding: 0;
 }
+
+.portImg {
+    width: 90%;
+}
+
+.headerText1 {
+    color: #cccccc;
+    margin-bottom: 20px;
+}
