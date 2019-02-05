@@ -2,7 +2,21 @@ body {
     background-image: url(../images/ao.gif);
     font-family: 'Share Tech Mono', monospace;
 }
+.textHover:hover {
+    color: #00bfa5;
+}
 
+.logo {
+    height: 180px;
+    width: 200px;
+    padding: 8px 8px 15px 32px;
+}
+
+.devText {
+    color: #00bfa5;
+    text-emphasis: bold;
+    font-size: 55px;
+}
 .navIcon {
     color: #cccccc;
     height: 50px;
@@ -75,10 +89,28 @@ body {
 #mainPage {
      background-color: #818181;
      color: #111;
-     padding: 5%;
-     opacity: 0.5;
+     padding: 8%;
+     opacity: 0.7;
      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-     align-content: center;
+     margin-bottom: 10%;
+ }
+
+ #mainBox {
+     border-bottom: #3a3a3a solid 10px;
+     margin-bottom: 15px;
+ }
+
+ .pageIcon {
+     text-decoration: none;
+     color: #cccccc;
+     height: 100px;
+     width: 100px;
+     margin-right: 50px;
+     text-align: center;
+ }
+
+ .pageIcon:hover {
+     color: #00bfa5;
  }
 
  .bottom {
@@ -88,4 +120,7 @@ body {
 
 .Copyright {
     color: #3a3a3a;
+}
+#jittyIcon {
+    padding: 0;
 }
